@@ -1,0 +1,60 @@
+.al {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.al,
+.al:after,
+.al:before {
+  transition: all 0.4s;
+  color: whitesmoke;
+}
+.al:hover {
+  color: #e34f25;
+}
+
+/* stroke */
+.al {
+  
+  position: relative;
+  color: whitesmoke;
+}
+.al:after,
+.al:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #e34f25;
+  height: 5px;
+}
+.al:hover:after {
+  width: 100%;
+}
+
+.al {
+  transition: all 1s;
+}
+
+.al:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+.al:hover {
+  color: #e34f25;
+  z-index: 1;
+}
+.al:hover:after {
+  z-index: -10;
+  animation: fill 0.1s forwards;
+  opacity: 1;
+}
+.navbar-brand {
+  height: 60px;
+}

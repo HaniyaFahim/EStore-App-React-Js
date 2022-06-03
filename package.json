@@ -1,0 +1,41 @@
+{
+  "name": "reactcontentful",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "contentful": "^7.15.2",
+    "firebase": "^9.1.1",
+    "get-youtube-id": "^1.0.1",
+    "marked": "^0.6.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.13.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "2.1.1",
+    "react-shopping-cart": "^1.9.5",
+    "react-use-cart": "^1.13.0",
+    "react-youtube": "^7.14.0",
+    "router-dom": "^2.2.9",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "plugins": [
+      "react-hot-loader/babel"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
